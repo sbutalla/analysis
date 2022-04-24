@@ -1015,6 +1015,6 @@ if __name__ == "__main__":
     try:
         runScans(full_path, massList, args.prodCrossSection, args.branchingRatio, args.acceptances, args.allBR, args.verbose, args.quiet, fd1MassScan, fd2MassScan, massList_fd1, massList_fd2)
     except KeyboardInterrupt:
-        print(Colors.RED + "\nKeyboard Interrupt encountered" + Colors.ENDC)
+        print(colors.RED + "\nKeyboard interrupt: exiting..." + colors.ENDC)
 
     
